@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  mister-build:
+    build: .
+    volumes:
+      - ./Linux-Kernel_MiSTer:/mister
