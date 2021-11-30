@@ -26,3 +26,5 @@ RUN mkdir -p /mister
 WORKDIR /mister
 
 VOLUME ['/mister']
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]
